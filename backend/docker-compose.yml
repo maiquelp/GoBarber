@@ -1,0 +1,8 @@
+version: '2'
+services:
+  go_stack_postgres:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - '5432:5432'
